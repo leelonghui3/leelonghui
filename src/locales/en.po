@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Source-Language: en\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/routes/+page.svelte
+#: src/routes/[[lang]]/+page.svelte
+msgid "Welcome to SvelteKit"
+msgstr "Welcome to SvelteKit"
+
+#: src/routes/+page.svelte
+#: src/routes/[[lang]]/+page.svelte
+msgid "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
+msgstr "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
+
+#: src/lib/components/Header.svelte
+msgid "About"
+msgstr "About"
+
+#: src/lib/components/Header.svelte
+msgid "Experience"
+msgstr "Experience"
+
+#: src/lib/components/Header.svelte
+msgid "Skills"
+msgstr "Skills"
+
+#: src/lib/components/Header.svelte
+msgid "Work"
+msgstr "Work"
+
+#: src/lib/components/Header.svelte
+msgid "Education"
+msgstr "Education"
+
+#: src/lib/components/Header.svelte
+msgid "Contact"
+msgstr "Contact"
+
+#: src/lib/components/Header.svelte
+msgid "Lee Long Hui's mugshot"
+msgstr "Lee Long Hui's mugshot"
+
+#: src/lib/components/Header.svelte
+msgid "Drawer"
+msgstr "Drawer"

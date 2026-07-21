@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--animate-mugshot: mugshot linear both;
+	--animate-progress: progress linear both;
+	--animate-header: header linear both;
+
+	@keyframes mugshot {
+		from {
+			height: --spacing(16);
+			width: --spacing(16);
+		}
+		to {
+			height: --spacing(10);
+			width: --spacing(10);
+		}
+	}
+
+	@keyframes header {
+		from {
+			height: --spacing(40);
+		}
+		to {
+			height: --spacing(14);
+		}
+	}
+
+	@keyframes progress {
+		from {
+			transform: scaleX(0);
+		}
+		to {
+			transform: scaleX(1);
+		}
+	}
+
+	@keyframes shrink-name {
+		to {
+			font-size: var(--text-base);
+		}
+	}
+	@keyframes add-shadow {
+		to {
+			box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.26);
+		}
+	}
+	@keyframes move-button {
+		to {
+			translate: 0% 40%;
+		}
+	}
+	@keyframes move-and-fade-background {
+		to {
+			translate: 0% -10%;
+			scale: 0.96;
+			opacity: 0;
+		}
+	}
+}
